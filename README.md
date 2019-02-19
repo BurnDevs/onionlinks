@@ -5,7 +5,7 @@ Script feito em Python 3.7 a versão mais recente do py
 
 # Instalação:
 
-git clone https://github.com/RyanAragao2/onionlinks/
+git clone https://github.com/RyanAragao2/onionlinks.git
 
 # Utilização:
 
