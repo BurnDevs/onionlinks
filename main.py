@@ -34,7 +34,7 @@ while True:
         break
     elif menuzinho == 1:
         with open("sitesonion.txt", "w") as stream:
-            for url in search(dork, stop=100 or 1):
+            for url in search(dork, stop=50 or 1):
                 print(url, file=stream)
                 print("Os URLS dos sites foram salvos em um arquivo chamado: sitesonion.txt")
     else:
