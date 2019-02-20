@@ -16,9 +16,9 @@ git clone https://github.com/RyanAragao2/onionlinks.git
 3. Os URLS serão salvos em um txt chamado "sitesonion.txt)
 
 4. Para utilizar no TOR tire tudo que tiver depois do .onion, e tire o HTTP/HTTPS.
-    Exemplo Errado: https://2ooosblmcnaqvmju.onion.sh/
+    Exemplo Errado: https://exemplo2348exemplo.onion.sh/
     
-    Exemplo Certo:  2ooosblmcnaqvmju.onion
+    Exemplo Certo:  exemplocerto293.onion
 
 # Módulo googlesearch
 
