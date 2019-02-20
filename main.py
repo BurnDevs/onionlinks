@@ -19,7 +19,6 @@ conteudo = str(input("coloque o conteúdo:"))
 
 # Dork para encontrar os URLS/LINKS/SITES
 dork = f'{conteudo} site:onion.link | site:onion.cab | site:onion.sh | site:tor2web.fi | site:onion.direct'
-
 # Menu de escolhas/seleção
 def menu():
     print("0 - Sair")
