@@ -35,6 +35,7 @@ while True:
         with open("sitesonion.txt", "w") as stream:
             for url in search(dork, stop=50 or 1):
                 print(url, file=stream)
-                print("Os URLS dos sites foram salvos em um arquivo chamado: sitesonion.txt")
+                print("Os URLS dos sites serão salvos em um arquivo chamado: sitesonion.txt")
+                print("Caso o TXT esteja em branco aguarde, ele está salvando")
     else:
         print("Essa opção não existe, tente novamente!")
