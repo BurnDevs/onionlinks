@@ -19,8 +19,23 @@ conteudo = str(input("coloque o conteúdo:"))
 
 # Dork para encontrar os URLS/LINKS/SITES
 dork = f'{conteudo} site:onion.link | site:onion.cab | site:onion.sh | site:tor2web.fi | site:onion.direct'
+
 # Menu de escolhas/seleção
+
+
 def menu():
+    banner = '''
+    +-------------------------------------------------------+
+    |          Script para buscar sites da Onion            |
+    | 1. Enquanto não estiver pronto o txt ficara em branco |
+    | 2. Tire o HTTP/HTTPS do URL para usa-lo no TOR.       |
+    | 3. Tire tudo que tiver depois do .onion               |
+    |     Exemplo Certo: exemplo293884.onion                |
+    |     Exemplo Errado: https://exemplo283874.onion.sh/   |
+    +-------------------------------------------------------+
+    '''
+
+    print(banner)
     print("0 - Sair")
     print("1 - Procurar sites onion")
 
@@ -35,7 +50,7 @@ while True:
         with open("sitesonion.txt", "w") as stream:
             for url in search(dork, stop=50 or 1):
                 print(url, file=stream)
-                print("Os URLS dos sites serão salvos em um arquivo chamado: sitesonion.txt")
-                print("Caso o TXT esteja em branco aguarde, ele está salvando")
+                print("Os URLS estão sendo salvos em um arquivo chamado: sitesonion.txt")
+                print("Aguarde o script encerrar")
     else:
         print("Essa opção não existe, tente novamente!")
