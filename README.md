@@ -1,13 +1,16 @@
 # Deep Web Onion Links
 
 Script feito para encontrar sites na rede onion da Deep Web e salvar em um TXT
+
 Script feito em Python 3.7
 
 # Instalação:
 
-git clone https://github.com/RyanAragao2/onionlinks
+git clone https://github.com/BurnDevs/onionlinks
 
 pip3 install google
+
+pip3 install clint
 
 # Utilização:
 
@@ -23,8 +26,3 @@ pip3 install google
     
     Exemplo Certo:  exemplocerto293.onion
 
-# Módulo google
-
-Caso de erro no Google Search, abra o Terminal/Cmd e digite:
-
-pip install google (Se não tiver o pip no python, reinstale e marque a opção de pip)
